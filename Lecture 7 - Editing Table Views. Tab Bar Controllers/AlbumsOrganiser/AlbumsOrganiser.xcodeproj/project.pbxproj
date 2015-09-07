@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9500F6E21AE2C73A00D96424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9500F6E11AE2C73A00D96424 /* main.m */; };
+		9500F6E51AE2C73A00D96424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9500F6E41AE2C73A00D96424 /* AppDelegate.m */; };
+		9500F6E81AE2C73A00D96424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9500F6E71AE2C73A00D96424 /* ViewController.m */; };
+		9500F6EB1AE2C73A00D96424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9500F6E91AE2C73A00D96424 /* Main.storyboard */; };
+		9500F6ED1AE2C73A00D96424 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9500F6EC1AE2C73A00D96424 /* Images.xcassets */; };
+		9500F6F01AE2C73A00D96424 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9500F6EE1AE2C73A00D96424 /* LaunchScreen.xib */; };
+		9500F6FC1AE2C73A00D96424 /* AlbumsOrganiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9500F6FB1AE2C73A00D96424 /* AlbumsOrganiserTests.m */; };
+		9500F7061AE2CCD500D96424 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9500F7051AE2CCD500D96424 /* Images */; };
+		9500F70A1AE2CD8B00D96424 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 9500F7091AE2CD8B00D96424 /* Album.m */; };
+		9500F70D1AE2CF2500D96424 /* AlbumsOrganiserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9500F70C1AE2CF2500D96424 /* AlbumsOrganiserInfo.m */; };
+		9500F7101AE2D30800D96424 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 9500F70F1AE2D30800D96424 /* Song.m */; };
+		9500F7141AE2DA8D00D96424 /* AlbumsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9500F7131AE2DA8D00D96424 /* AlbumsTableViewController.m */; };
+		95BF72DD1AE537B9007DC824 /* AlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BF72DC1AE537B9007DC824 /* AlbumTableViewController.m */; };
+		95BF73251AE5B65D007DC824 /* NewSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BF73241AE5B65D007DC824 /* NewSongViewController.m */; };
+		95BF73281AE6842E007DC824 /* NewAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BF73271AE6842E007DC824 /* NewAlbumViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9500F6F61AE2C73A00D96424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9500F6D41AE2C73A00D96424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9500F6DB1AE2C73A00D96424;
+			remoteInfo = AlbumsOrganiser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9500F6DC1AE2C73A00D96424 /* AlbumsOrganiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumsOrganiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9500F6E01AE2C73A00D96424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9500F6E11AE2C73A00D96424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9500F6E31AE2C73A00D96424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9500F6E41AE2C73A00D96424 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9500F6E61AE2C73A00D96424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9500F6E71AE2C73A00D96424 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9500F6EA1AE2C73A00D96424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9500F6EC1AE2C73A00D96424 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9500F6EF1AE2C73A00D96424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9500F6F51AE2C73A00D96424 /* AlbumsOrganiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbumsOrganiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9500F6FA1AE2C73A00D96424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9500F6FB1AE2C73A00D96424 /* AlbumsOrganiserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumsOrganiserTests.m; sourceTree = "<group>"; };
+		9500F7051AE2CCD500D96424 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		9500F7081AE2CD8B00D96424 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Album.h; path = Models/Album.h; sourceTree = "<group>"; };
+		9500F7091AE2CD8B00D96424 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = Models/Album.m; sourceTree = "<group>"; };
+		9500F70B1AE2CF2500D96424 /* AlbumsOrganiserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsOrganiserInfo.h; sourceTree = "<group>"; };
+		9500F70C1AE2CF2500D96424 /* AlbumsOrganiserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsOrganiserInfo.m; sourceTree = "<group>"; };
+		9500F70E1AE2D30800D96424 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Song.h; path = Models/Song.h; sourceTree = "<group>"; };
+		9500F70F1AE2D30800D96424 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Song.m; path = Models/Song.m; sourceTree = "<group>"; };
+		9500F7121AE2DA8D00D96424 /* AlbumsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumsTableViewController.h; path = ViewControllers/AlbumsTableViewController.h; sourceTree = "<group>"; };
+		9500F7131AE2DA8D00D96424 /* AlbumsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumsTableViewController.m; path = ViewControllers/AlbumsTableViewController.m; sourceTree = "<group>"; };
+		95BF72DB1AE537B9007DC824 /* AlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumTableViewController.h; path = ViewControllers/AlbumTableViewController.h; sourceTree = "<group>"; };
+		95BF72DC1AE537B9007DC824 /* AlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumTableViewController.m; path = ViewControllers/AlbumTableViewController.m; sourceTree = "<group>"; };
+		95BF73231AE5B65D007DC824 /* NewSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewSongViewController.h; path = ViewControllers/NewSongViewController.h; sourceTree = "<group>"; };
+		95BF73241AE5B65D007DC824 /* NewSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewSongViewController.m; path = ViewControllers/NewSongViewController.m; sourceTree = "<group>"; };
+		95BF73261AE6842E007DC824 /* NewAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewAlbumViewController.h; path = ViewControllers/NewAlbumViewController.h; sourceTree = "<group>"; };
+		95BF73271AE6842E007DC824 /* NewAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewAlbumViewController.m; path = ViewControllers/NewAlbumViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9500F6D91AE2C73A00D96424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9500F6F21AE2C73A00D96424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9500F6D31AE2C73A00D96424 = {
+			isa = PBXGroup;
+			children = (
+				9500F6DE1AE2C73A00D96424 /* AlbumsOrganiser */,
+				9500F6F81AE2C73A00D96424 /* AlbumsOrganiserTests */,
+				9500F6DD1AE2C73A00D96424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9500F6DD1AE2C73A00D96424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9500F6DC1AE2C73A00D96424 /* AlbumsOrganiser.app */,
+				9500F6F51AE2C73A00D96424 /* AlbumsOrganiserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9500F6DE1AE2C73A00D96424 /* AlbumsOrganiser */ = {
+			isa = PBXGroup;
+			children = (
+				9500F6E31AE2C73A00D96424 /* AppDelegate.h */,
+				9500F6E41AE2C73A00D96424 /* AppDelegate.m */,
+				9500F6E61AE2C73A00D96424 /* ViewController.h */,
+				9500F6E71AE2C73A00D96424 /* ViewController.m */,
+				9500F6E91AE2C73A00D96424 /* Main.storyboard */,
+				9500F6EC1AE2C73A00D96424 /* Images.xcassets */,
+				9500F7051AE2CCD500D96424 /* Images */,
+				9500F6EE1AE2C73A00D96424 /* LaunchScreen.xib */,
+				9500F7111AE2DA5400D96424 /* ViewControllers */,
+				9500F7071AE2CD5A00D96424 /* Models */,
+				9500F6DF1AE2C73A00D96424 /* Supporting Files */,
+				9500F70B1AE2CF2500D96424 /* AlbumsOrganiserInfo.h */,
+				9500F70C1AE2CF2500D96424 /* AlbumsOrganiserInfo.m */,
+			);
+			path = AlbumsOrganiser;
+			sourceTree = "<group>";
+		};
+		9500F6DF1AE2C73A00D96424 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9500F6E01AE2C73A00D96424 /* Info.plist */,
+				9500F6E11AE2C73A00D96424 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9500F6F81AE2C73A00D96424 /* AlbumsOrganiserTests */ = {
+			isa = PBXGroup;
+			children = (
+				9500F6FB1AE2C73A00D96424 /* AlbumsOrganiserTests.m */,
+				9500F6F91AE2C73A00D96424 /* Supporting Files */,
+			);
+			path = AlbumsOrganiserTests;
+			sourceTree = "<group>";
+		};
+		9500F6F91AE2C73A00D96424 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9500F6FA1AE2C73A00D96424 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9500F7071AE2CD5A00D96424 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9500F7081AE2CD8B00D96424 /* Album.h */,
+				9500F7091AE2CD8B00D96424 /* Album.m */,
+				9500F70E1AE2D30800D96424 /* Song.h */,
+				9500F70F1AE2D30800D96424 /* Song.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9500F7111AE2DA5400D96424 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9500F7121AE2DA8D00D96424 /* AlbumsTableViewController.h */,
+				9500F7131AE2DA8D00D96424 /* AlbumsTableViewController.m */,
+				95BF72DB1AE537B9007DC824 /* AlbumTableViewController.h */,
+				95BF72DC1AE537B9007DC824 /* AlbumTableViewController.m */,
+				95BF73231AE5B65D007DC824 /* NewSongViewController.h */,
+				95BF73241AE5B65D007DC824 /* NewSongViewController.m */,
+				95BF73261AE6842E007DC824 /* NewAlbumViewController.h */,
+				95BF73271AE6842E007DC824 /* NewAlbumViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9500F6DB1AE2C73A00D96424 /* AlbumsOrganiser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9500F6FF1AE2C73A00D96424 /* Build configuration list for PBXNativeTarget "AlbumsOrganiser" */;
+			buildPhases = (
+				9500F6D81AE2C73A00D96424 /* Sources */,
+				9500F6D91AE2C73A00D96424 /* Frameworks */,
+				9500F6DA1AE2C73A00D96424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlbumsOrganiser;
+			productName = AlbumsOrganiser;
+			productReference = 9500F6DC1AE2C73A00D96424 /* AlbumsOrganiser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9500F6F41AE2C73A00D96424 /* AlbumsOrganiserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9500F7021AE2C73A00D96424 /* Build configuration list for PBXNativeTarget "AlbumsOrganiserTests" */;
+			buildPhases = (
+				9500F6F11AE2C73A00D96424 /* Sources */,
+				9500F6F21AE2C73A00D96424 /* Frameworks */,
+				9500F6F31AE2C73A00D96424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9500F6F71AE2C73A00D96424 /* PBXTargetDependency */,
+			);
+			name = AlbumsOrganiserTests;
+			productName = AlbumsOrganiserTests;
+			productReference = 9500F6F51AE2C73A00D96424 /* AlbumsOrganiserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9500F6D41AE2C73A00D96424 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Valeri Manchev";
+				TargetAttributes = {
+					9500F6DB1AE2C73A00D96424 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					9500F6F41AE2C73A00D96424 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 9500F6DB1AE2C73A00D96424;
+					};
+				};
+			};
+			buildConfigurationList = 9500F6D71AE2C73A00D96424 /* Build configuration list for PBXProject "AlbumsOrganiser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9500F6D31AE2C73A00D96424;
+			productRefGroup = 9500F6DD1AE2C73A00D96424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9500F6DB1AE2C73A00D96424 /* AlbumsOrganiser */,
+				9500F6F41AE2C73A00D96424 /* AlbumsOrganiserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9500F6DA1AE2C73A00D96424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9500F7061AE2CCD500D96424 /* Images in Resources */,
+				9500F6EB1AE2C73A00D96424 /* Main.storyboard in Resources */,
+				9500F6F01AE2C73A00D96424 /* LaunchScreen.xib in Resources */,
+				9500F6ED1AE2C73A00D96424 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9500F6F31AE2C73A00D96424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9500F6D81AE2C73A00D96424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9500F7141AE2DA8D00D96424 /* AlbumsTableViewController.m in Sources */,
+				95BF73251AE5B65D007DC824 /* NewSongViewController.m in Sources */,
+				9500F7101AE2D30800D96424 /* Song.m in Sources */,
+				9500F6E81AE2C73A00D96424 /* ViewController.m in Sources */,
+				9500F6E51AE2C73A00D96424 /* AppDelegate.m in Sources */,
+				9500F6E21AE2C73A00D96424 /* main.m in Sources */,
+				95BF72DD1AE537B9007DC824 /* AlbumTableViewController.m in Sources */,
+				9500F70D1AE2CF2500D96424 /* AlbumsOrganiserInfo.m in Sources */,
+				9500F70A1AE2CD8B00D96424 /* Album.m in Sources */,
+				95BF73281AE6842E007DC824 /* NewAlbumViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9500F6F11AE2C73A00D96424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9500F6FC1AE2C73A00D96424 /* AlbumsOrganiserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9500F6F71AE2C73A00D96424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9500F6DB1AE2C73A00D96424 /* AlbumsOrganiser */;
+			targetProxy = 9500F6F61AE2C73A00D96424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9500F6E91AE2C73A00D96424 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9500F6EA1AE2C73A00D96424 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9500F6EE1AE2C73A00D96424 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9500F6EF1AE2C73A00D96424 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9500F6FD1AE2C73A00D96424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9500F6FE1AE2C73A00D96424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9500F7001AE2C73A00D96424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlbumsOrganiser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9500F7011AE2C73A00D96424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlbumsOrganiser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9500F7031AE2C73A00D96424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlbumsOrganiserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlbumsOrganiser.app/AlbumsOrganiser";
+			};
+			name = Debug;
+		};
+		9500F7041AE2C73A00D96424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlbumsOrganiserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlbumsOrganiser.app/AlbumsOrganiser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9500F6D71AE2C73A00D96424 /* Build configuration list for PBXProject "AlbumsOrganiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9500F6FD1AE2C73A00D96424 /* Debug */,
+				9500F6FE1AE2C73A00D96424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9500F6FF1AE2C73A00D96424 /* Build configuration list for PBXNativeTarget "AlbumsOrganiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9500F7001AE2C73A00D96424 /* Debug */,
+				9500F7011AE2C73A00D96424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9500F7021AE2C73A00D96424 /* Build configuration list for PBXNativeTarget "AlbumsOrganiserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9500F7031AE2C73A00D96424 /* Debug */,
+				9500F7041AE2C73A00D96424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9500F6D41AE2C73A00D96424 /* Project object */;
+}
